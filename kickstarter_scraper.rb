@@ -1,6 +1,7 @@
 # require libraries/modules here
 require 'nokogiri'
 require 'pry'
+require_relative '../kickstarter_scraper'
 
 def create_project_hash
   
